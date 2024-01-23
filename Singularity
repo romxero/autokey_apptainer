@@ -4,7 +4,7 @@ From: ubuntu:16.04
 %post
 apt-get -ymq update
 apt-get -y install firefox python3 python3-pip wget curl git python3-dbus python3-pyinotify \
-python3-xlib wmctrl python3-packaging autokey-gtk grabc zip fuse xterm xvt x11-apps
+python3-xlib wmctrl python3-packaging autokey-gtk grabc zip fuse xterm xvt x11-apps xdotool
 
 ##grab the firefox add-on
 #rm -rf /tmp/moz_extensions_tmp
